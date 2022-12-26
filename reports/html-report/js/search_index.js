@@ -1,0 +1,1 @@
+var index = {"Tags":{},"Specs":{"QatarAirwaysTest":["specs/example.html"]}};

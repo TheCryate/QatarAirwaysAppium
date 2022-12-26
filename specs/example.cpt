@@ -1,0 +1,38 @@
+#Qatar Airways uygulaması açılır
+* Uygulama Gorunur Olana Kadar Bekle
+#Uygulamanın açıldığı kontrol edilir
+* Uygulamanın Acildigini Kontrol Et
+#Karşılama ekranı “Skip” seçeneği ile geçilir
+* Lokasyon Servislerini Gec
+* Karsilama Ekranini Gec
+* Decline Gorunur Olana Kadar Bekle
+* Decline'a Bas
+#Alt menüden “Book” tabına geçiş yapılır
+* Book Tabanina Gecis Yap
+#Seyehat tipi olarak “One Way” seçilir
+* One-Way Seyahat Tipine Tikla
+//* "2" saniye kadar bekle
+#Kalkış havaalanı olarak Berlin seçilir
+* Kalkis Yeri Sece Tikla
+//* "2" saniye kadar bekle
+* Kalkis Arama Yerine "Berlin" Yaz
+* Berlin'i Sec
+#Varış havaalanı olarak Istanbul seçilir
+* Varis Yeri Sece Tikla
+* Varis Arama Yerine "Istanbul" Yaz
+* Istanbul'u Sec
+#(Bugünün tarihi + 7 gün) olarak bir gidiş tarihi seçilir
+* Gidis Tarihi Sece Tikla
+* Gunumuzden 7 Gun Sonrasini Sec
+#Arama butonuna tıklanır
+* Ucus Ara
+#Uçuş seçim ekranının geldiği kontrol edilir
+* Ucus Secim Ekraninin Geldigini Kontrol Et
+#Rastgele bir uçuş seçilir
+* Ucus Sayfasini Asagi Kaydir
+* "//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup" 'li uçuşlardan rastgele seç ve "android.widget.TextView[1]" ile "android.widget.TextView[2]" değerlerini kaydet
+#Economy class seçeneğine tıklanır
+//* Rastgele Ucus Sec
+* Ekonomi Classic Secenegine Tikla
+# Uçuş seçim ekranındaki uçuş saati ile uçuş detayları ekranındaki uçuş saati değeri aynı mı kontrol edilir
+* Uçuş ve varış saatlerinin uyuşması kontrolü

@@ -1,0 +1,85 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SLF4J: A number (12) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 2763milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2763"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 58883"}
+{"logLevel":"info","message":"Listening on port:58883"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.chooseIstanbul' and 'StepImplementation.chooseIstanbul'"}
+{"logLevel":"debug","message":"Found Ýstanbul'u Seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.chooseBerlin' and 'StepImplementation.chooseBerlin'"}
+{"logLevel":"debug","message":"Found Berlin'i Seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickBook' and 'StepImplementation.clickBook'"}
+{"logLevel":"debug","message":"Found Book Tabanýna Geçiþ Yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitUntilVisible' and 'StepImplementation.waitUntilVisible'"}
+{"logLevel":"debug","message":"Found Görünür Olana Kadar Bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.to' and 'StepImplementation.to'"}
+{"logLevel":"debug","message":"Found Varýþ Yeri Seçe Týkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickOneWay' and 'StepImplementation.clickOneWay'"}
+{"logLevel":"debug","message":"Found One-Way Seyahat Tipine Týkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.skipLocation' and 'StepImplementation.skipLocation'"}
+{"logLevel":"debug","message":"Found Lokasyon Servislerini Geç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickDecline' and 'StepImplementation.clickDecline'"}
+{"logLevel":"debug","message":"Found Decline'a Bas in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.from' and 'StepImplementation.from'"}
+{"logLevel":"debug","message":"Found Kalkýþ Yeri Seçe Týkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForSeconds' and 'StepImplementation.waitForSeconds'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendKeyIstanbul' and 'StepImplementation.sendKeyIstanbul'"}
+{"logLevel":"debug","message":"Found Varýþ Arama Yerine {} Yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.welcomeScreen' and 'StepImplementation.welcomeScreen'"}
+{"logLevel":"debug","message":"Found Karþýlama Ekranýný Geç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendKeyBerlin' and 'StepImplementation.sendKeyBerlin'"}
+{"logLevel":"debug","message":"Found Kalkýþ Arama Yerine {} Yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.departure' and 'StepImplementation.departure'"}
+{"logLevel":"debug","message":"Found Gidiþ Tarihi Seçe Týkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkApp' and 'StepImplementation.checkApp'"}
+{"logLevel":"debug","message":"Found Uygulamanýn Açýldýðýný Kontrol Et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tVarýþ Arama Yerine {} Yaz : public void sendKeyIstanbul(String value)"}
+{"logLevel":"debug","message":"\tUygulamanýn Açýldýðýný Kontrol Et : public void checkApp()"}
+{"logLevel":"debug","message":"\tÝstanbul'u Seç : public void chooseIstanbul()"}
+{"logLevel":"debug","message":"\tKalkýþ Arama Yerine {} Yaz : public void sendKeyBerlin(String value)"}
+{"logLevel":"debug","message":"\tDecline'a Bas : public void clickDecline()"}
+{"logLevel":"debug","message":"\tGidiþ Tarihi Seçe Týkla : public void departure()"}
+{"logLevel":"debug","message":"\tBook Tabanýna Geçiþ Yap : public void clickBook()"}
+{"logLevel":"debug","message":"\tVarýþ Yeri Seçe Týkla : public void to()"}
+{"logLevel":"debug","message":"\tLokasyon Servislerini Geç : public void skipLocation()"}
+{"logLevel":"debug","message":"\tKalkýþ Yeri Seçe Týkla : public void from()"}
+{"logLevel":"debug","message":"\tGörünür Olana Kadar Bekle : public void waitUntilVisible()"}
+{"logLevel":"debug","message":"\tKarþýlama Ekranýný Geç : public void welcomeScreen()"}
+{"logLevel":"debug","message":"\tOne-Way Seyahat Tipine Týkla : public void clickOneWay()"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForSeconds(ýnt x) throws InterruptedException"}
+{"logLevel":"debug","message":"\tBerlin'i Seç : public void chooseBerlin()"}
+2022-12-26 11:35:19,293 +03:00 INFO  BaseTest:22 setup - ----------Local'de Android Emulator Testi Baslatiliyor----------
+----------Local'de Android Emulator Testi Baslatiliyor----------
+Ara 26, 2022 11:35:41 ÖÖ io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Uygulamanýn Açýldýðýný Kontrol Et' using 'class StepImplementation.checkApp"}
+2022-12-26 11:35:44,373 +03:00 INFO  StepImplementation:21 checkApp - Uygulama Basariyla Baslatildi
+Uygulama Basariyla Baslatildi
+{"logLevel":"debug","message":"Executing 'Lokasyon Servislerini Geç' using 'class StepImplementation.skipLocation"}
+{"logLevel":"debug","message":"Executing 'Karþýlama Ekranýný Geç' using 'class StepImplementation.welcomeScreen"}
+{"logLevel":"debug","message":"Executing 'Görünür Olana Kadar Bekle' using 'class StepImplementation.waitUntilVisible"}
+{"logLevel":"debug","message":"Executing 'Decline'a Bas' using 'class StepImplementation.clickDecline"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Book Tabanýna Geçiþ Yap' using 'class StepImplementation.clickBook"}
+{"logLevel":"debug","message":"Executing 'One-Way Seyahat Tipine Týkla' using 'class StepImplementation.clickOneWay"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Kalkýþ Yeri Seçe Týkla' using 'class StepImplementation.from"}
+{"logLevel":"debug","message":"Executing 'Görünür Olana Kadar Bekle' using 'class StepImplementation.waitUntilVisible"}
+2022-12-26 11:36:09,224 +03:00 INFO  BaseTest:35 tearDown - ----------Android Emulator Testi Sonlandiriliyor----------
+----------Android Emulator Testi Sonlandiriliyor----------
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

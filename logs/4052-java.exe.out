@@ -1,0 +1,101 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SLF4J: A number (12) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 2169milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2169"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 63146"}
+{"logLevel":"info","message":"Listening on port:63146"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.chooseBerlin' and 'StepImplementation.chooseBerlin'"}
+{"logLevel":"debug","message":"Found Berlin'i Sec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.chooseEconomyClassic' and 'StepImplementation.chooseEconomyClassic'"}
+{"logLevel":"debug","message":"Found Ekonomi Classic Secenegine Tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.swipeFlightPage' and 'StepImplementation.swipeFlightPage'"}
+{"logLevel":"debug","message":"Found Ucus Sayfasini Asagi Kaydir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickBook' and 'StepImplementation.clickBook'"}
+{"logLevel":"debug","message":"Found Book Tabanýna Geçiþ Yap(afk) in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.compareFlyHours' and 'StepImplementation.compareFlyHours'"}
+{"logLevel":"debug","message":"Found Uçuþ ve varýþ saatlerinin uyuþmasý kontrolü in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickOneWay' and 'StepImplementation.clickOneWay'"}
+{"logLevel":"debug","message":"Found One-Way Seyahat Tipine Tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.skipLocation' and 'StepImplementation.skipLocation'"}
+{"logLevel":"debug","message":"Found Lokasyon Servislerini Gec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickDecline' and 'StepImplementation.clickDecline'"}
+{"logLevel":"debug","message":"Found Decline'a Bas in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.from' and 'StepImplementation.from'"}
+{"logLevel":"debug","message":"Found Kalkis Yeri Sece Tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendKeyIstanbul' and 'StepImplementation.sendKeyIstanbul'"}
+{"logLevel":"debug","message":"Found Varis Arama Yerine {} Yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.lastDataFlyHours' and 'StepImplementation.lastDataFlyHours'"}
+{"logLevel":"debug","message":"Found {} ile {} sondaki uçuþ saatleri verileri in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendKeyBerlin' and 'StepImplementation.sendKeyBerlin'"}
+{"logLevel":"debug","message":"Found Kalkis Arama Yerine {} Yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.departure' and 'StepImplementation.departure'"}
+{"logLevel":"debug","message":"Found Gidis Tarihi Sece Tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.searchFlight' and 'StepImplementation.searchFlight'"}
+{"logLevel":"debug","message":"Found Ucus Ara in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitUntilAppVisible' and 'StepImplementation.waitUntilAppVisible'"}
+{"logLevel":"debug","message":"Found Uygulama Gorunur Olana Kadar Bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkApp' and 'StepImplementation.checkApp'"}
+{"logLevel":"debug","message":"Found Uygulamanýn Acildigini Kontrol Et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.chooseIstanbul' and 'StepImplementation.chooseIstanbul'"}
+{"logLevel":"debug","message":"Found Istanbul'u Sec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.afterSevenDays' and 'StepImplementation.afterSevenDays'"}
+{"logLevel":"debug","message":"Found Gunumuzden 7 Gun Sonrasini Sec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForClickable' and 'StepImplementation.waitForClickable'"}
+{"logLevel":"debug","message":"Found Görünür olduðunda týkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.randomSelectFly' and 'StepImplementation.randomSelectFly'"}
+{"logLevel":"debug","message":"Found {} 'li uçuþlardan rastgele seç ve {} ve {} deðerlerini kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForBookClickable' and 'StepImplementation.waitForBookClickable'"}
+{"logLevel":"debug","message":"Found Book Tabanina Gecis Yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.skipWelcomeScreen' and 'StepImplementation.skipWelcomeScreen'"}
+{"logLevel":"debug","message":"Found Karsilama Ekranini Gec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.to' and 'StepImplementation.to'"}
+{"logLevel":"debug","message":"Found Varis Yeri Sece Tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkFlight' and 'StepImplementation.checkFlight'"}
+{"logLevel":"debug","message":"Found Ucus Secim Ekraninin Geldigini Kontrol Et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitUntilDeclineVisible' and 'StepImplementation.waitUntilDeclineVisible'"}
+{"logLevel":"debug","message":"Found Decline Gorunur Olana Kadar Bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.selectRandomFlight' and 'StepImplementation.selectRandomFlight'"}
+{"logLevel":"debug","message":"Found Rastgele Ucus Seec in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForSeconds' and 'StepImplementation.waitForSeconds'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tKalkis Yeri Sece Tikla : public void from()"}
+{"logLevel":"debug","message":"\tGidis Tarihi Sece Tikla : public void departure()"}
+{"logLevel":"debug","message":"\tOne-Way Seyahat Tipine Tikla : public void clickOneWay()"}
+{"logLevel":"debug","message":"\tUcus Ara : public void searchFlight()"}
+{"logLevel":"debug","message":"\tRastgele Ucus Seec : public void selectRandomFlight()"}
+{"logLevel":"debug","message":"\t{} ile {} sondaki uçuþ saatleri verileri : public void lastDataFlyHours(String departurePath, String arrivalPath)"}
+{"logLevel":"debug","message":"\tUçuþ ve varýþ saatlerinin uyuþmasý kontrolü : public void compareFlyHours()"}
+{"logLevel":"debug","message":"\tGunumuzden 7 Gun Sonrasini Sec : public void afterSevenDays()"}
+{"logLevel":"debug","message":"\tBook Tabanina Gecis Yap : public void waitForBookClickable()"}
+{"logLevel":"debug","message":"\tKalkis Arama Yerine {} Yaz : public void sendKeyBerlin(String value)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForSeconds(ýnt x) throws InterruptedException"}
+{"logLevel":"debug","message":"\tIstanbul'u Sec : public void chooseIstanbul()"}
+{"logLevel":"debug","message":"\tUcus Secim Ekraninin Geldigini Kontrol Et : public void checkFlight()"}
+{"logLevel":"debug","message":"\tUygulamanýn Acildigini Kontrol Et : public void checkApp()"}
+{"logLevel":"debug","message":"\tVaris Yeri Sece Tikla : public void to()"}
+{"logLevel":"debug","message":"\tUygulama Gorunur Olana Kadar Bekle : public void waitUntilAppVisible()"}
+{"logLevel":"debug","message":"\tDecline'a Bas : public void clickDecline()"}
+{"logLevel":"debug","message":"\tBook Tabanýna Geçiþ Yap(afk) : public void clickBook()"}
+{"logLevel":"debug","message":"\tBerlin'i Sec : public void chooseBerlin()"}
+{"logLevel":"debug","message":"\t{} 'li uçuþlardan rastgele seç ve {} ve {} deðerlerini kaydet : public void randomSelectFly(String xpath, String departurePath, String arrivalPath)"}
+{"logLevel":"debug","message":"\tLokasyon Servislerini Gec : public void skipLocation()"}
+{"logLevel":"debug","message":"\tGörünür olduðunda týkla : public void waitForClickable()"}
+{"logLevel":"debug","message":"\tVaris Arama Yerine {} Yaz : public void sendKeyIstanbul(String value)"}
+{"logLevel":"debug","message":"\tKarsilama Ekranini Gec : public void skipWelcomeScreen()"}
+{"logLevel":"debug","message":"\tDecline Gorunur Olana Kadar Bekle : public void waitUntilDeclineVisible()"}
+{"logLevel":"debug","message":"\tUcus Sayfasini Asagi Kaydir : public void swipeFlightPage()"}
+{"logLevel":"debug","message":"\tEkonomi Classic Secenegine Tikla : public void chooseEconomyClassic()"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

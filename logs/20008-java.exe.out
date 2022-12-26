@@ -1,0 +1,69 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 2872milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2872"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 51337"}
+{"logLevel":"info","message":"Listening on port:51337"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickOneWay' and 'StepImplementation.clickOneWay'"}
+{"logLevel":"debug","message":"Found One-Way Seyahat Tipine Týkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.skipLocation' and 'StepImplementation.skipLocation'"}
+{"logLevel":"debug","message":"Found Lokasyon Servislerini Geç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.chooseBerlin' and 'StepImplementation.chooseBerlin'"}
+{"logLevel":"debug","message":"Found Berlin'i Seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickDecline' and 'StepImplementation.clickDecline'"}
+{"logLevel":"debug","message":"Found Decline'a Bas in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.from' and 'StepImplementation.from'"}
+{"logLevel":"debug","message":"Found Kalkýþ Yeri Seçme Seçeneðine Bas in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickBook' and 'StepImplementation.clickBook'"}
+{"logLevel":"debug","message":"Found Book Tabanýna Geçiþ Yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForSeconds' and 'StepImplementation.waitForSeconds'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.welcomeScreen' and 'StepImplementation.welcomeScreen'"}
+{"logLevel":"debug","message":"Found Karþýlama Ekranýný Geç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendKeyBerlin' and 'StepImplementation.sendKeyBerlin'"}
+{"logLevel":"debug","message":"Found Arama Yerine {} Yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkApp' and 'StepImplementation.checkApp'"}
+{"logLevel":"debug","message":"Found Uygulamanýn Açýldýðýný Kontrol Et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tBook Tabanýna Geçiþ Yap : public void clickBook()"}
+{"logLevel":"debug","message":"\tLokasyon Servislerini Geç : public void skipLocation()"}
+{"logLevel":"debug","message":"\tUygulamanýn Açýldýðýný Kontrol Et : public void checkApp()"}
+{"logLevel":"debug","message":"\tKarþýlama Ekranýný Geç : public void welcomeScreen()"}
+{"logLevel":"debug","message":"\tOne-Way Seyahat Tipine Týkla : public void clickOneWay()"}
+{"logLevel":"debug","message":"\tKalkýþ Yeri Seçme Seçeneðine Bas : public void from()"}
+{"logLevel":"debug","message":"\tDecline'a Bas : public void clickDecline()"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForSeconds(ýnt x) throws InterruptedException"}
+{"logLevel":"debug","message":"\tArama Yerine {} Yaz : public void sendKeyBerlin(String value)"}
+{"logLevel":"debug","message":"\tBerlin'i Seç : public void chooseBerlin()"}
+2022-12-26 01:26:13,129 +03:00 INFO  BaseTest:22 setup - ----------Local'de Android Emulator Testi Baslatiliyor----------
+----------Local'de Android Emulator Testi Baslatiliyor----------
+Ara 26, 2022 1:26:31 ÖÖ io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Uygulamanýn Açýldýðýný Kontrol Et' using 'class StepImplementation.checkApp"}
+2022-12-26 01:26:34,284 +03:00 INFO  StepImplementation:19 checkApp - Uygulama Basariyla Baslatildi
+Uygulama Basariyla Baslatildi
+{"logLevel":"debug","message":"Executing 'Lokasyon Servislerini Geç' using 'class StepImplementation.skipLocation"}
+{"logLevel":"debug","message":"Executing 'Karþýlama Ekranýný Geç' using 'class StepImplementation.welcomeScreen"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Decline'a Bas' using 'class StepImplementation.clickDecline"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Book Tabanýna Geçiþ Yap' using 'class StepImplementation.clickBook"}
+{"logLevel":"debug","message":"Executing 'One-Way Seyahat Tipine Týkla' using 'class StepImplementation.clickOneWay"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Kalkýþ Yeri Seçme Seçeneðine Bas' using 'class StepImplementation.from"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Arama Yerine {} Yaz' using 'class StepImplementation.sendKeyBerlin"}
+{"logLevel":"debug","message":"Executing 'Berlin'i Seç' using 'class StepImplementation.chooseBerlin"}
+2022-12-26 01:26:55,785 +03:00 INFO  BaseTest:35 tearDown - ----------Android Emulator Testi Sonlandiriliyor----------
+----------Android Emulator Testi Sonlandiriliyor----------
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
